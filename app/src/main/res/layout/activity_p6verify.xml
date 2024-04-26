@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P6_verify">
+
+    <ImageView
+        android:id="@+id/arrowback3"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/arrowback" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="153dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/kanit_medium"
+        android:text="ยืนยันตัวตน"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/kanit"
+        android:text="กรุณากรอกรหัสยืนยันที่เราได้ส่งให้คุณ 061-xxx-0012"
+        android:textColor="#737373"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned1"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:inputType="numberSigned"
+        android:text="  1"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned2"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="  8"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned3"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="  9"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned4"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned5"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned6"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="145dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/kanit"
+        android:text="หากคุณไม่ได้รับรหัส?"
+        android:textColor="#929191"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="113dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/kanit_medium"
+        android:text="ส่งรหัสใหม่ (58)"
+        android:textColor="#F27BBD"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.637" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="412dp"
+        android:layout_height="275dp"
+        android:layout_marginTop="150dp"
+        android:background="#C8C8C8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/buttonnum1"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum2"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="2"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+        android:id="@+id/buttonnum3"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="3"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum4"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="4"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum5"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum6"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="70dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="6"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum7"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="135dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="7"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum8"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="135dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="8"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum9"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="275dp"
+            android:layout_marginTop="135dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <Button
+            android:id="@+id/buttonnum0"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="200dp"
+            android:background="#fff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="0"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="21dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="63dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="210dp"
+            android:rotationY="-179"
+            app:srcCompat="@drawable/label" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="335dp"
+            android:layout_marginTop="218dp"
+            app:srcCompat="@drawable/clear" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
